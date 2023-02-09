@@ -1,4 +1,14 @@
+@import "reset.css" layer(reset);
 @import "colors.css" layer(colors);
-@import "inter.css" layer(inter);
+@import "light.css" layer(light);
+@import "dark.css" layer(dark);
+@import "fonts.css" layer(fonts);
 
-@layer colors, inter;
+html, body {
+    color: var(--foreground);
+    background: var(--background);
+}
+
+::selection {
+    background: var(--highlight-selection);
+}

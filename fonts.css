@@ -19,5 +19,12 @@
 }
 
 :root {
-  font-family: "InterVar", sans-serif; font-optical-sizing: auto;
+  font-family: -apple-system, "InterVar", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
