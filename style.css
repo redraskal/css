@@ -1,0 +1,4 @@
+@import "colors.css" layer(colors);
+@import "inter.css" layer(inter);
+
+@layer colors, inter;

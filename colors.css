@@ -1,0 +1,41 @@
+:root {
+    --background: #FFF;
+    --accents-1: #FAFAFA;
+    --accents-2: #EAEAEA;
+    --accents-3: #999;
+    --accents-4: #888;
+    --accents-5: #666;
+    --accents-7: #333;
+    --accents-8: #111;
+    --foreground: #000;
+
+    --red-lighter: #F7D4D6;
+    --red-light: #FF1A1A;
+    --red: #E00;
+    --red-dark: #C50000;
+
+    --blue-lighter: #D3E5FF;
+    --blue-light: #3291FF;
+    --blue: #0070F3;
+    --blue-dark: #0761D1;
+
+    --marigold-lighter: #FFEFCF;
+    --marigold-light: #F7B955;
+    --marigold: #F5A623;
+    --marigold-dark: #AB570A;
+
+    --violet-lighter: #D8CCF1;
+    --violet-light: #8A63D2;
+    --violet: #7929CA;
+    --violet-dark: #4C2889;
+
+    --cyan-lighter: #AAFFEC;
+    --cyan-light: #79FFE1;
+    --cyan: #50E3C2;
+    --cyan-dark: #29BC9B;
+
+    --highlight-purple: #F81CE5;
+    --highlight-magenta: #EB367F;
+    --highlight-pink: #FF0080;
+    --highlight-yellow: #FFF500;
+}
