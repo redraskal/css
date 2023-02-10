@@ -52,6 +52,10 @@ kbd {
   border-radius: 0.3rem;
 }
 
+kbd::selection {
+  color: var(--foreground);
+}
+
 h1 {
   font-size: 3rem;
   letter-spacing: -0.066875rem;
