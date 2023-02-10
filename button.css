@@ -1,6 +1,7 @@
 button {
     display: inline-flex;
     gap: 0.5rem;
+    vertical-align: middle;
     padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 0.3rem;
     background: var(--foreground);
