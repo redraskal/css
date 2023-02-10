@@ -38,6 +38,19 @@ html, body {
   background: var(--highlight-selection);
 }
 
+mark {
+  background: var(--highlight-selection);
+  color: var(--foreground);
+  font-weight: 500;
+}
+
+kbd {
+  padding: 0.25rem;
+  background: var(--accents-1);
+  border: var(--accents-2) 1px solid;
+  border-radius: 0.3rem;
+}
+
 h1 {
   font-size: 3rem;
   letter-spacing: -.066875rem;
