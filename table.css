@@ -36,3 +36,8 @@ td {
 tr:not(:last-of-type) td {
     border-bottom: var(--accents-2) 1px solid;
 }
+
+th::selection,
+td::selection {
+    color: var(--foreground);
+}
