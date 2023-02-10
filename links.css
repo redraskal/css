@@ -1,0 +1,11 @@
+a {
+    display: inline-flex;
+    gap: 0.1rem;
+    vertical-align: middle;
+    color: var(--blue-light);
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
