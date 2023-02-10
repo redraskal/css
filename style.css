@@ -1,8 +1,9 @@
 @import "reset.css" layer(reset);
-@import "colors.css" layer(colors);
+@import "color.css" layer(color);
 @import "dark.css" layer(dark);
-@import "fonts.css" layer(fonts);
+@import "font.css" layer(font);
 @import "button.css" layer(button);
 @import "input.css" layer(input);
 @import "img.css" layer(img);
-@import "links.css" layer(links);
+@import "link.css" layer(link);
+@import "table.css" layer(table);
