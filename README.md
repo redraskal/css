@@ -3,7 +3,7 @@ Small CSS framework based on Vercel
 
 ### Fonts:
 
-- Inter https://rsms.me/inter/
+- Inter https://rsms.me/inter
 
 ### Icons:
 
