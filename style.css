@@ -1,14 +1,7 @@
 @import "reset.css" layer(reset);
 @import "colors.css" layer(colors);
-@import "light.css" layer(light);
 @import "dark.css" layer(dark);
 @import "fonts.css" layer(fonts);
-
-html, body {
-    color: var(--foreground);
-    background: var(--background);
-}
-
-::selection {
-    background: var(--highlight-selection);
-}
+@import "button.css" layer(button);
+@import "input.css" layer(input);
+@import "img.css" layer(img);

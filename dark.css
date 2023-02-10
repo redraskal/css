@@ -1,39 +1,46 @@
-html.dark {
-    --background: var(--foreground-base);
-    --accents-1: var(--accents-1-base);
-    --accents-2: var(--accents-2-base);
-    --accents-3: var(--accents-3-base);
-    --accents-4: var(--accents-4-base);
-    --accents-5: var(--accents-5-base);
-    --accents-6: var(--accents-6-base);
-    --accents-7: var(--accents-7-base);
-    --accents-8: var(--accents-8-base);
-    --foreground: var(--background-base);
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #000;
+        --accents-1: #111;
+        --accents-2: #333;
+        --accents-3: #444;
+        --accents-4: #666;
+        --accents-5: #888;
+        --accents-6: #999;
+        --accents-7: #EAEAEA;
+        --accents-8: #FAFAFA;
+        --foreground: #FFF;
 
-    --red-lighter: var(--red-lighter-base);
-    --red-light: var(--red-light-base);
-    --red: var(--red-base);
-    --red-dark: var(--red-dark-base);
+        --red-lighter: #C50000;
+        --red-light: #E00;
+        --red: #FF1A1A;
+        --red-dark: #F7D4D6;
 
-    --blue-lighter: var(--blue-lighter-base);
-    --blue-light: var(--blue-light-base);
-    --blue: var(--blue-base);
-    --blue-dark: var(--blue-dark-base);
+        --blue-lighter: #0761D1;
+        --blue-light: #0070F3;
+        --blue: #3291FF;
+        --blue-dark: #D3E5FF;
 
-    --marigold-lighter: var(--marigold-lighter-base);
-    --marigold-light: var(--marigold-light-base);
-    --marigold: var(--marigold-base);
-    --marigold-dark: var(--marigold-dark-base);
+        --marigold-lighter: #AB570A;
+        --marigold-light: #F5A623;
+        --marigold: #F7B955;
+        --marigold-dark: #FFEFCF;
 
-    --violet-lighter: var(--violet-lighter-base);
-    --violet-light: var(--violet-light-base);
-    --violet: var(--violet-base);
-    --violet-dark: var(--violet-dark-base);
+        --violet-lighter: #4C2889;
+        --violet-light: #7929CA;
+        --violet: #8A63D2;
+        --violet-dark: #D8CCF1;
 
-    --cyan-lighter: var(--cyan-lighter-base);
-    --cyan-light: var(--cyan-light-base);
-    --cyan: var(--cyan-base);
-    --cyan-dark: var(--cyan-dark-base);
+        --cyan-lighter: #29BC9B;
+        --cyan-light: #50E3C2;
+        --cyan: #79FFE1;
+        --cyan-dark: #AAFFEC;
 
-    --highlight-selection: var(--highlight-purple);
+        --highlight-purple: #F81CE5;
+        --highlight-magenta: #EB367F;
+        --highlight-pink: #FF0080;
+        --highlight-yellow: #FFF500;
+
+        --highlight-selection: var(--highlight-purple);
+    }
 }

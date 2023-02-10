@@ -1,42 +1,44 @@
 :root {
-    --background-base: #FFF;
-    --accents-1-base: #FAFAFA;
-    --accents-2-base: #EAEAEA;
-    --accents-3-base: #999;
-    --accents-4-base: #888;
-    --accents-5-base: #666;
-    --accents-6-base: #999;
-    --accents-7-base: #333;
-    --accents-8-base: #111;
-    --foreground-base: #000;
+    --background: #FFF;
+    --accents-1: #FAFAFA;
+    --accents-2: #EAEAEA;
+    --accents-3: #999;
+    --accents-4: #888;
+    --accents-5: #666;
+    --accents-6: #444;
+    --accents-7: #333;
+    --accents-8: #111;
+    --foreground: #000;
 
-    --red-lighter-base: #F7D4D6;
-    --red-light-base: #FF1A1A;
-    --red-base: #E00;
-    --red-dark-base: #C50000;
+    --red-lighter: #F7D4D6;
+    --red-light: #FF1A1A;
+    --red: #E00;
+    --red-dark: #C50000;
 
-    --blue-lighter-base: #D3E5FF;
-    --blue-light-base: #3291FF;
-    --blue-base: #0070F3;
-    --blue-dark-base: #0761D1;
+    --blue-lighter: #D3E5FF;
+    --blue-light: #3291FF;
+    --blue: #0070F3;
+    --blue-dark: #0761D1;
 
-    --marigold-lighter-base: #FFEFCF;
-    --marigold-light-base: #F7B955;
-    --marigold-base: #F5A623;
-    --marigold-dark-base: #AB570A;
+    --marigold-lighter: #FFEFCF;
+    --marigold-light: #F7B955;
+    --marigold: #F5A623;
+    --marigold-dark: #AB570A;
 
-    --violet-lighter-base: #D8CCF1;
-    --violet-light-base: #8A63D2;
-    --violet-base: #7929CA;
-    --violet-dark-base: #4C2889;
+    --violet-lighter: #D8CCF1;
+    --violet-light: #8A63D2;
+    --violet: #7929CA;
+    --violet-dark: #4C2889;
 
-    --cyan-lighter-base: #AAFFEC;
-    --cyan-light-base: #79FFE1;
-    --cyan-base: #50E3C2;
-    --cyan-dark-base: #29BC9B;
+    --cyan-lighter: #AAFFEC;
+    --cyan-light: #79FFE1;
+    --cyan: #50E3C2;
+    --cyan-dark: #29BC9B;
 
     --highlight-purple: #F81CE5;
     --highlight-magenta: #EB367F;
     --highlight-pink: #FF0080;
     --highlight-yellow: #FFF500;
+
+    --highlight-selection: var(--cyan-lighter);
 }

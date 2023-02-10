@@ -5,7 +5,8 @@
     <title>CSS Test</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body style="padding: 3rem;">
+    <h2>Text</h2>
     <h1>The quick brown fox jumps over the lazy dog.</h1>
     <h2>The quick brown fox jumps over the lazy dog.</h2>
     <h3>The quick brown fox jumps over the lazy dog.</h3>
@@ -18,8 +19,56 @@
         <b>jumps over</b>
         <i>the lazy dog.</i>
     </p>
-    <button>Submit</button>
-    <br />
-    <input type="text" placeholder="Input" />
+    <h2>Buttons</h2>
+    <p>
+        <button>Primary</button>
+        <button type="secondary">Secondary</button>
+        <button type="error">Error</button>
+        <button type="warning">Warning</button>
+        <button type="alert">Alert</button>
+        <button type="violet">Violet</button>
+        <button shadow>Shadow</button>
+        <button disabled>Disabled</button>
+    </p>
+    <p>
+        <button small>Small</button>
+        <button>Medium</button>
+        <button large>Large</button>
+        <button circle small>
+            <img adapt src="icons/arrow-up.svg" />
+        </button>
+        <button circle type="secondary">
+            <img adapt src="icons/arrow-up.svg" />
+        </button>
+        <button circle large>
+            <img adapt src="icons/arrow-up.svg" />
+        </button>
+    </p>
+    <p>
+        <button>
+            <img adapt src="icons/arrow-up.svg" />
+            Upload
+        </button>
+        <button type="secondary">
+            <img adapt src="icons/arrow-up.svg" />
+            Upload
+        </button>
+    </p>
+    <h2>Input</h2>
+    <input type="text" placeholder="Placeholder..." />
+    <input type="text" placeholder="Placeholder..." disabled />
+    <input type="text" value="Value" disabled />
+    <h2>Spinner</h2>
+    <img adapt src="icons/spinner.svg" />
+    <p>
+        <button disabled>
+            <img adapt src="icons/spinner.svg" />
+            Loading
+        </button>
+        <button disabled>
+            Loading
+            <img adapt src="icons/spinner.svg" />
+        </button>
+    </p>
 </body>
 </html>

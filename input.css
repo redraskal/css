@@ -1,0 +1,23 @@
+input {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 0.3rem;
+    background: var(--background);
+    color: var(--foreground);
+    border-color: var(--accents-2);
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    transition: all 0.25s ease;
+    font-weight: 500;
+}
+
+input:focus {
+    border-color: var(--accents-6);
+}
+
+input:disabled {
+    background: var(--accents-1);
+    color: var(--accents-3);
+    border-color: var(--accents-3);
+    cursor: not-allowed;
+}

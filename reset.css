@@ -25,6 +25,9 @@ select {
     font: inherit;
     border: none;
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: auto;
 }
 
 p,

@@ -3,9 +3,9 @@
   font-weight: 100 900;
   font-display: swap;
   font-style: normal;
-  src: url("Inter.var.woff2?v=3.19") format("woff2-variations"),
-       url("Inter.var.woff2?v=3.19") format("woff2");
-  src: url("Inter.var.woff2?v=3.19") format("woff2") tech("variations");
+  src: url("fonts/Inter.var.woff2?v=3.19") format("woff2-variations"),
+       url("fonts/Inter.var.woff2?v=3.19") format("woff2");
+  src: url("fonts/Inter.var.woff2?v=3.19") format("woff2") tech("variations");
 }
 
 @font-face {
@@ -13,9 +13,9 @@
   font-weight: 100 900;
   font-display: swap;
   font-style: italic;
-  src: url("Inter-Italic.var.woff2?v=3.19") format("woff2-variations"),
-       url("Inter-Italic.var.woff2?v=3.19") format("woff2");
-  src: url("Inter-Italic.var.woff2?v=3.19") format("woff2") tech("variations");
+  src: url("fonts/Inter-Italic.var.woff2?v=3.19") format("woff2-variations"),
+       url("fonts/Inter-Italic.var.woff2?v=3.19") format("woff2");
+  src: url("fonts/Inter-Italic.var.woff2?v=3.19") format("woff2") tech("variations");
 }
 
 :root {
@@ -27,4 +27,65 @@
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+::selection {
+  background: var(--highlight-selection);
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: -.066875rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: -.049375rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  letter-spacing: -.029375rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  letter-spacing: -.020625rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+h6 {
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+small {
+  font-size: .625rem;
+  font-weight: 400;
+  line-height: .75rem;
 }
