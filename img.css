@@ -2,7 +2,7 @@ img {
     pointer-events: none;
 }
 
-button:not(:disabled):not([type]):not(:hover) > img[adapt] {
+button:not(:disabled):not([type]):not(:hover) > img.adapt {
     filter: invert();
 }
 
@@ -11,15 +11,15 @@ button:disabled img {
 }
 
 @media(prefers-color-scheme: dark) {
-    img[adapt] {
+    img.adapt {
         filter: invert();
     }
 
-    button:not(:disabled):not([type]):not(:hover) > img[adapt] {
+    button:not(:disabled):not([type]):not(:hover) > img.adapt {
         filter: none;
     }
 
-    button:hover img[adapt] :not(:disabled) {
+    button:hover img.adapt :not(:disabled) {
         filter: invert();
     }
 }

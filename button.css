@@ -36,66 +36,66 @@ button[circle][large] {
     padding: 0.75rem;
 }
 
-button[type="secondary"] {
+button.secondary {
     background: var(--background);
     color: var(--accents-6);
     border-color: var(--accents-3);
 }
 
-button[type="secondary"]:hover {
+button.secondary:hover {
     color: var(--foreground);
     border-color: var(--foreground);
 }
 
-button[type="error"] {
+button.error {
     background: var(--red);
     color: white;
     border-color: var(--red);
 }
 
-button[type="error"]:hover {
+button.error:hover {
     color: var(--red);
     border-color: var(--red);
 }
 
-button[type="warning"] {
+button.warning {
     background: var(--marigold-light);
     color: white;
     border-color: var(--marigold-light);
 }
 
-button[type="warning"]:hover {
+button.warning:hover {
     color: var(--marigold-light);
     border-color: var(--marigold-light);
 }
 
-button[type="alert"] {
+button.alert {
     background: var(--highlight-pink);
     color: white;
     border-color: var(--highlight-pink);
 }
 
-button[type="alert"]:hover {
+button.alert:hover {
     color: var(--highlight-pink);
     border-color: var(--highlight-pink);
 }
 
-button[type="violet"] {
+button.violet {
     background: var(--violet-light);
     color: white;
     border-color: var(--violet-light);
 }
 
-button[type="violet"]:hover {
+button.violet:hover {
     color: var(--violet-light);
     border-color: var(--violet-light);
 }
 
-button[shadow] {
+button.shadow {
     filter: drop-shadow(0 5px 12px rgba(0, 0, 0, 0.2));
 }
 
-button[shadow]:active {
+button.shadow:active {
     filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.3));
 }
 
