@@ -2,8 +2,8 @@
 @import "color.css" layer(color);
 @import "dark.css" layer(dark);
 @import "font.css" layer(font);
-@import "button.css" layer(button);
 @import "input.css" layer(input);
+@import "button.css" layer(button);
 @import "img.css" layer(img);
 @import "link.css" layer(link);
 @import "table.css" layer(table);

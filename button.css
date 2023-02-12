@@ -1,4 +1,5 @@
-button {
+button,
+input[type="submit"] {
     display: inline-flex;
     gap: 0.5rem;
     vertical-align: middle;
@@ -98,29 +99,34 @@ button[shadow]:active {
     filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.3));
 }
 
-button:hover {
+button:hover,
+input[type="submit"]:hover {
     background: var(--background);
     color: var(--foreground);
     border-color: var(--foreground);
 }
 
-button:active {
+button:active,
+input[type="submit"]:active {
     background: var(--accents-2);
     transform: translateY(0.1rem);
 }
 
-button:disabled {
+button:disabled,
+input[type="submit"]:disabled {
     background: var(--accents-1);
     color: var(--accents-3);
     border-color: var(--accents-3);
     cursor: not-allowed;
 }
 
-button:disabled:hover {
+button:disabled:hover,
+input[type="submit"]:disabled:hover {
     color: var(--accents-3);
     border-color: var(--accents-3);
 }
 
-button:disabled:active {
+button:disabled:active,
+input[type="submit"]:disabled:active {
     transform: none;
 }
