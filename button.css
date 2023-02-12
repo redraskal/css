@@ -15,24 +15,24 @@ input[type="submit"] {
     font-weight: 500;
 }
 
-button[small] {
+button.small {
     padding: 0.25rem 1rem 0.25rem 1rem;
 }
 
-button[large] {
+button.large {
     padding: 0.75rem;
 }
 
-button[circle][small] {
+button.circle.small {
     padding: 0.25rem;
 }
 
-button[circle] {
+button.circle {
     padding: 0.5rem;
     border-radius: 100%;
 }
 
-button[circle][large] {
+button.circle.large {
     padding: 0.75rem;
 }
 

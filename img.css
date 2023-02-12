@@ -2,7 +2,7 @@ img {
     pointer-events: none;
 }
 
-button:not(:disabled):not([type]):not(:hover) > img.adapt {
+button:not(:disabled, :hover, .secondary) > img.adapt {
     filter: invert();
 }
 
@@ -15,7 +15,7 @@ button:disabled img {
         filter: invert();
     }
 
-    button:not(:disabled):not([type]):not(:hover) > img.adapt {
+    button:not(:disabled, :hover, .secondary, .error, .warning, .alert, .violet) > img.adapt {
         filter: none;
     }
 
