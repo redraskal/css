@@ -10,6 +10,6 @@ a:hover {
     text-decoration: underline;
 }
 
-a button {
+a:has(button) {
     text-decoration: none;
 }
