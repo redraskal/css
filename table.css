@@ -37,8 +37,13 @@ tr:not(:last-of-type) td {
     border-bottom: var(--accents-2) 1px solid;
 }
 
+tr {
+    transition: 0.1s ease;
+}
+
 tr:hover {
     background: var(--accents-1);
+    filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.05));
 }
 
 th::selection,

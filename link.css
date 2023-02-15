@@ -1,6 +1,6 @@
 a {
     display: inline-flex;
-    gap: 0.1rem;
+    gap: 0.3rem;
     vertical-align: middle;
     color: var(--blue-light);
     font-weight: 500;

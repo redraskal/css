@@ -12,6 +12,43 @@ select {
     font-weight: 300;
 }
 
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background: var(--foreground);
+    border-color: var(--foreground);
+}
+
+input[type="checkbox"]:checked::after {
+    color: var(--background);
+    content: "✓";
+    position: absolute;
+}
+
+input[type="checkbox"]:disabled {
+    background: var(--accents-3);
+    border-color: var(--accents-3);
+}
+
+label:has(+input[type="checkbox"]:disabled) {
+    cursor: not-allowed;
+}
+
+label {
+    user-select: none;
+    cursor: pointer;
+}
+
 input:focus,
 select:focus {
     border-color: var(--accents-6);
@@ -27,13 +64,23 @@ select:disabled {
 
 select {
     appearance: none !important;
-    padding-right: 1rem;
+    padding-right: 2.5rem;
     background-image: url("icons/chevron-down.svg");
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: calc(100% - 0.5rem);
 }
 
-select:active {
+select:focus {
     background-image: url("icons/chevron-up.svg");
+}
+
+@media (prefers-color-scheme: dark) {
+    select {
+        background-image: url("icons/chevron-down-invert.svg");
+    }
+
+    select:focus {
+        background-image: url("icons/chevron-up-invert.svg");
+    }
 }
