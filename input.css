@@ -12,6 +12,14 @@ select {
     font-weight: 300;
 }
 
+select:not(:disabled) {
+    cursor: pointer;
+}
+
+input[type="file"]:not(:disabled) {
+    cursor: pointer;
+}
+
 input[type="checkbox"] {
     width: 20px;
     height: 20px;
@@ -40,7 +48,7 @@ input[type="checkbox"]:disabled {
     border-color: var(--accents-3);
 }
 
-label:has(+input[type="checkbox"]:disabled) {
+input[type="checkbox"]:disabled + label {
     cursor: not-allowed;
 }
 
