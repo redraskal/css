@@ -107,3 +107,11 @@ small {
   font-weight: 400;
   line-height: 0.75rem;
 }
+
+.muted {
+  color: var(--accents-5);
+}
+
+.center {
+  text-align: center;
+}
